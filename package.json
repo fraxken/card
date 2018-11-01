@@ -1,0 +1,31 @@
+{
+  "name": "gentilhomme-thomas",
+  "version": "1.0.0",
+  "description": "Fraxken (GENTILHOMME Thomas) npm card",
+  "main": "index.js",
+  "bin": {
+    "gentilhomme-thomas": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraxken/card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraxken/card/issues"
+  },
+  "homepage": "https://github.com/fraxken/card#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "string-length": "^2.0.0"
+  },
+  "devDependencies": {
+    "@slimio/eslint-config": "^1.1.8",
+    "eslint": "^5.8.0"
+  }
+}
