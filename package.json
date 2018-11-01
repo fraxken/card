@@ -1,6 +1,6 @@
 {
   "name": "gentilhomme-thomas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fraxken (GENTILHOMME Thomas) npm card",
   "main": "index.js",
   "bin": {
