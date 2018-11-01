@@ -1,10 +1,10 @@
 {
   "name": "gentilhomme-thomas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fraxken (GENTILHOMME Thomas) npm card",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "bin": {
-    "gentilhomme-thomas": "bin/index.js"
+    "gentilhomme-thomas": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
