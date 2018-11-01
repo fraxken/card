@@ -4,7 +4,7 @@
   "description": "Fraxken (GENTILHOMME Thomas) npm card",
   "main": "index.js",
   "bin": {
-    "gentilhomme-thomas": "index.js"
+    "gentilhomme-thomas": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

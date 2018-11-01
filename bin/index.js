@@ -2,7 +2,7 @@
 const chalk = require("chalk");
 
 // Require Internal Dependencies
-const Card = require("./card.class");
+const Card = require("../src/card.class");
 
 new Card(80, {
     borderColor: "cyan",
