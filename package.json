@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "Fraxken (GENTILHOMME Thomas) npm card",
   "main": "index.js",
+  "preferGlobal": true,
   "bin": {
     "fraxken": "./bin/card.js"
   },
