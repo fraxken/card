@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "Fraxken (GENTILHOMME Thomas) npm card",
   "main": "index.js",
+  "type": "module",
   "preferGlobal": true,
   "bin": {
     "fraxken": "./bin/card.js"
@@ -22,11 +23,11 @@
   },
   "homepage": "https://github.com/fraxken/card#readme",
   "dependencies": {
-    "chalk": "^4.1.2",
+    "kleur": "^4.1.4",
     "string-length": "^5.0.1"
   },
   "devDependencies": {
-    "@slimio/eslint-config": "^4.1.0",
+    "@nodesecure/eslint-config": "^1.3.0",
     "eslint": "^8.1.0"
   }
 }

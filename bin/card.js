@@ -1,21 +1,24 @@
 #!/usr/bin/env node
 
-// Require Third-party Dependencies
-const chalk = require("chalk");
+// Import Third-party Dependencies
+import kleur from "kleur";
 
-// Require Internal Dependencies
-const Card = require("../src/card.class");
+// Import Internal Dependencies
+import Card from "../src/card.class.js";
 
-new Card(80, {
-    borderColor: "cyan",
-    borderPadding: 3
+const wh = kleur.white;
+
+new Card(70, {
+  borderColor: "gray",
+  borderPadding: 3
 })
-    .addLine(`Thomas GENTILHOMME - ${chalk.yellow("fraxken")}`)
-    .addLine(`ECMAScript & Node.js Evangelist. Founder of ${chalk.green("@ES-Community")}`)
-    .addLine("")
-    .addLine(`Twitter: ${chalk.yellow("@fraxken")}`)
-    .addLine(`GitHub: ${chalk.green("https://github.com/fraxken")}`)
-    .addLine(`LinkedIn: ${chalk.green("https://www.linkedin.com/in/thomasgentilhomme-58192195/")}`)
-    .addLine("")
-    .addLine(`Card: npx ${chalk.yellow("fraxken")}`)
-    .print();
+  .addLine(kleur.white(`Thomas GENTILHOMME - ${kleur.yellow("fraxken")}`))
+  .addLine("")
+  .addLine(`${kleur.gray(">")} API & Node.js lead at ${kleur.green("MyUnisoft")}`)
+  .addLine(`${kleur.gray(">")} Node.js ${kleur.green("Security")} Working Group`)
+  .addLine(`${kleur.gray(">")} OSS Hacker (${wh("@NodeSecure")}, ${wh("@SlimIO")}, ${wh("@NodeLint")})`)
+  .addLine("")
+  .addLine(`Twitter: ${kleur.cyan("@fraxken")}`)
+  .addLine(`GitHub: ${kleur.cyan("https://github.com/fraxken")}`)
+  .addLine(`LinkedIn: ${kleur.cyan("https://www.linkedin.com/in/thomas-gentilhomme/")}`)
+  .print();
