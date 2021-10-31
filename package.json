@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/fraxken/card#readme",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "string-length": "^2.0.0"
+    "chalk": "^4.1.2",
+    "string-length": "^5.0.1"
   },
   "devDependencies": {
-    "@slimio/eslint-config": "^1.1.8",
-    "eslint": "^5.8.0"
+    "@slimio/eslint-config": "^4.1.0",
+    "eslint": "^8.1.0"
   }
 }
